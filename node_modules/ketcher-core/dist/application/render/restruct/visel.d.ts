@@ -1,0 +1,13 @@
+export default Visel;
+declare class Visel {
+    constructor(type: any);
+    type: any;
+    paths: any[];
+    boxes: any[];
+    boundingBox: any;
+    oldBoundingBox: any;
+    exts: any[];
+    add(path: any, bb: any, ext: any): void;
+    clear(): void;
+    translate(...args: any[]): void;
+}
